@@ -1,0 +1,38 @@
+body {
+    background-image:url("bg.jpg");
+}
+nav {
+    background-color: darkcyan;
+    height: 120px;
+    width: 1200px;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    /* must set width and height at code or else it doesnt work */
+    /* width: 1000px;
+    height: 500px; */
+    background-color: lightgrey;
+}
+
+.image-border {
+    border: 5px solid black;
+    border-radius: 10%;
+  }
+
+#color-picker-container{
+    display: inline-block;
+  }
+
+#buttons{
+    padding-top: 20px;
+}
+  
+  
+  
